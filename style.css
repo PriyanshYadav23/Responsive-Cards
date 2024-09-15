@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(avenger_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    width: 700px;
+    background-color: rgb(9, 9, 8);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img{
+    width: 100%;
+    height: 400px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card-content{
+    padding: 16px;
+}
+
+.card-content h3{
+    color:#fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.card-content p{
+    color:#666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.card-content .button{
+    display: inline-block;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.card-container .button:hover{
+    background-color: black;
+}
